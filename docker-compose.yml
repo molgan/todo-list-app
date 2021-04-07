@@ -3,11 +3,8 @@ version: "3.7"
 services:
   app:
     image: molgan/todo-list-app:latest
-    command: sh -c "yarn install && yarn run dev"
     ports: 
       - 3000:3000
-    volumes: 
-      - ./:/todo-list-app
     environment: 
       MYSQL_HOST: mysql
       MYSQL_USER: root
