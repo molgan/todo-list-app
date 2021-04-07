@@ -106,7 +106,7 @@ function AddItemForm({ onNewItem }) {
                         disabled={!newItem.length}
                         className={submitting ? 'disabled' : ''}
                     >
-                        {submitting ? 'Adding...' : 'Add New Item'}
+                        {submitting ? 'Adding...' : 'Add New'}
                     </Button>
                 </InputGroup.Append>
             </InputGroup>
