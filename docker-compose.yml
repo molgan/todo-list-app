@@ -2,8 +2,7 @@ version: "3.7"
 
 services:
   app:
-    image: molgan/todo-list-app:latest
-    build: . 
+    image: testim:latest
     command: sh -c "yarn install && yarn run dev"
     ports: 
       - 3000:3000
