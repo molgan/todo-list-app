@@ -5,8 +5,6 @@ services:
     image: molgan/todo-list-app:latest
     ports: 
       - 3000:3000
-    volumes:
-      - ./:.
     environment: 
       MYSQL_HOST: mysql
       MYSQL_USER: root
